@@ -1,0 +1,197 @@
+@import url(../fonts/Fernando\ Forero\ -\ Asfalto.otf);
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+/**----------------------------------------------GRALES--**/
+p {
+    font-family: 'Arima', system-ui;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    width: 100%; /* Establece el ancho del cuerpo al 100% del viewport width */
+    overflow-x: hidden; /* Evita la barra de desplazamiento horizontal si el contenido es más ancho que el viewport */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-family: Asfalto;
+    font-size: 2rem;
+    padding: 1.2rem;
+    text-align: center;
+}
+
+h3{
+    font-family: Asfalto;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+/**----------------------------------------------------------HEADER--**/
+header {
+    background-image: url(../img/headerCelularCompri.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+
+
+h1 {
+    opacity: 0;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0)   
+}
+
+.navbar-nav {
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+a.nav-link {
+    color: white;
+    font-family: 'Arima', system-ui;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/**----------------------------------------------------------NOSOTROS--**/
+#nosotros {
+    background-color: #070707;
+    color: rgb(255, 255, 255);
+}
+
+#nosotros p{
+    padding: 0px 1rem;
+}
+
+.imgResponsive {
+    max-width: 100%;
+    height: auto;
+    }
+
+
+
+
+.contenedorImagen {
+    overflow: hidden;
+}
+
+/**--------------------------------------------------------------NUESTRAS CERVEZAS--**/
+.tarjeta>h3 {
+    color: white;
+}
+
+.tarjeta {
+    background-color: #070707;
+    color: white;
+    margin: 2rem;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ibuAlc {
+    display: flex;
+}
+/**--------------------------------------------------------------PARTY PUMP--**/
+#partyPump p{
+    padding: 0px 1rem;
+}
+
+#partyPump {
+    background-color: #070707;
+    color: rgb(255, 255, 255);
+}
+
+#partyPump > article:last-child {
+    padding-bottom: 2rem;
+}
+
+/**-----------------------------------------------------------------CONTACTANOS--**/
+label {
+    font-family: Asfalto;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0.5rem;
+}
+
+input{ 
+    box-shadow: none; /* Elimina la sombra interna */
+    font-family: Arima;
+}
+
+select {
+    border-radius: 0px;
+    font-family: Arima;
+}
+
+textarea {
+    border-radius: 0px;
+    font-family: Arima;
+    margin-top: 1rem;
+}
+
+iframe {
+    width: 100%;
+    min-height: 300px;
+}
+
+/**------------------------------------------------------FOOTER**/
+footer{
+    background-color: #070707;
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 1.7rem;
+}
+
+ul {
+    list-style: none;
+}
+
+#ulFooter>li>a{
+    font-size: 0.8rem;
+}
+
+#iconos > img {
+    width: 20px;
+    height: auto;
+}
+
+#ulFooter {
+    padding: 0;
+}
+
+#iconos {
+    padding: 0.5rem
+}
+
+#iconos>img {
+    margin: 0.3rem;
+}
